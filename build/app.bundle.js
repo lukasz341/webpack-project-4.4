@@ -7852,9 +7852,9 @@ var App = function (_React$Component) {
                 'div',
                 { className: _App2.default.TodoApp },
                 _react2.default.createElement(
-                    'p',
+                    'div',
                     null,
-                    _Title2.default
+                    _react2.default.createElement(_Title2.default, null)
                 ),
                 'Tutaj pojawi\u0105 si\u0119 komponenty naszej aplikacji.'
             );
