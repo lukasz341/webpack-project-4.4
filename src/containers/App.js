@@ -28,7 +28,8 @@ class App extends React.Component {
         return (
             <div className={style.TodoApp}>
                 <div><Title/></div>
-                Tutaj pojawią się komponenty naszej aplikacji.
+                Liczba zadań: {this.state.data.length}
+               
 
             </div>
         );

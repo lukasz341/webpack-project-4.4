@@ -6,7 +6,7 @@ class Title extends React.Component {
     render() {
         return (
             <p>
-                Tytuł aplikacji
+                Aplikacja React
             </p>
         );
     }

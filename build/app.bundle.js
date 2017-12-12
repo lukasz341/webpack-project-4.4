@@ -7856,7 +7856,8 @@ var App = function (_React$Component) {
                     null,
                     _react2.default.createElement(_Title2.default, null)
                 ),
-                'Tutaj pojawi\u0105 si\u0119 komponenty naszej aplikacji.'
+                'Liczba zada\u0144: ',
+                this.state.data.length
             );
         }
     }]);
@@ -8691,7 +8692,7 @@ var Title = function (_React$Component) {
             return _react2.default.createElement(
                 'p',
                 null,
-                'Tytu\u0142 aplikacji'
+                'Aplikacja React'
             );
         }
     }]);
